@@ -3,10 +3,11 @@ theme: default
 _class: lead
 paginate: true
 backgroundColor: #fff
-backgroundImage: url('./assets/background.jpg')
+backgroundImage: url('../assets/background.jpg')
 marp: true
 ---
-![bg left:40% 80%](assets/bxl-git.svg)
+
+![bg left:40% 80%](../assets/bxl-git.svg)
 
 # Git
 
@@ -15,27 +16,31 @@ Free and open source distributed version control system.
 https://git-scm.com/
 
 ---
+
 ## Getting Started
 
 1. Install Git
-    ```shell
-        choco install git
-        brew install git
-        sudo apt install git
-    ```
+   ```shell
+       choco install git
+       brew install git
+       sudo apt install git
+   ```
 1. (Optional) Setup the ssh key for the hosting service
 
 1. Setup Git
-    ```shell
-    git config --global user.name "John Doe"
-    git config --global user.email "john.doe@companyemail.com"
-    ```
 
-    ```shell
-    git config user.name "John Doe"
-    git config user.email "john.doe@email.com"
-    ```
+   ```shell
+   git config --global user.name "John Doe"
+   git config --global user.email "john.doe@companyemail.com"
+   ```
+
+   ```shell
+   git config user.name "John Doe"
+   git config user.email "john.doe@email.com"
+   ```
+
 ---
+
 ## Getting Started
 
 ```shell
@@ -47,7 +52,9 @@ git config user.email
 git config --global core.editor "code --wait"
 git config --global init.defaultBranch develop
 ```
+
 ---
+
 ## Clone or initialize a repository
 
 ```shell
@@ -67,7 +74,9 @@ git branch -M main
 git remote add origin https://github.com/brenobattaglin/repo-example.git
 git push -u origin main
 ```
+
 ---
+
 ## Git branch & log
 
 ```shell
@@ -86,37 +95,50 @@ git branch -r
 ```shell
 git branch
 ```
+
 ```shell
 git log
 ```
+
 ---
-## Git checkout 
+
+## Git checkout
 
 ```shell
 git checkout feature/sign-in-google-account
 ```
+
 ```shell
 git checkout /src/model/User.js
 git checkout .
 ```
+
 ```shell
 git checkout -b forgot-my-password
 ```
+
 ---
+
 ## Git stash
+
 ```shell
 git stash
 ```
+
 ```shell
 git stash list
 ```
+
 ```shell
 git stash pop
 ```
+
 ```shell
 git stash pop 0
 ```
+
 ---
+
 ## Commiting changes
 
 ```shell
@@ -126,7 +148,7 @@ git log
 ```
 
 ```shell
-git add . 
+git add .
 git commit
 git push origin main
 ```
@@ -139,6 +161,7 @@ git push
 ```
 
 ---
+
 ## Git fetch & pull
 
 ```shell
@@ -151,15 +174,20 @@ git fetch --all
 git pull
 git pull origin feature/sign-in-apple-account
 ```
+
 ---
+
 ## Git merge
+
 ```shell
 git pull
 git checkout feature/sign-in-apple-account
 git pull
 git merge master
 ```
+
 ---
+
 ## Git aliases
 
 ```shell
@@ -175,24 +203,31 @@ git br feature/forgot-my-password
 git ci -m "This is the title"
 git st
 ```
+
 ---
+
 Terminals
 
 Windows:
-```shell 
+
+```shell
 choco install cmder
 ```
-```shell 
+
+```shell
 choco install microsoft-windows-terminal ## Setup Git bash
 ```
 
 Linux distros:
-```shell 
+
+```shell
 sudo apt install zsh
 ```
 
 MacOS:
+
 - zsh comes natively
 
 Linux distros and MacOS:
+
 - https://ohmyz.sh/

@@ -3,11 +3,11 @@ theme: default
 _class: lead
 paginate: true
 backgroundColor: #fff
-backgroundImage: url('./assets/background.jpg')
+backgroundImage: url('../assets/background.jpg')
 marp: true
 ---
 
-![bg left:40% 80%](assets/bxs-terminal.svg)
+![bg left:40% 80%](../assets/bxs-terminal.svg)
 
 # Chocolatey
 
@@ -30,6 +30,7 @@ choco install nodejs
 ```shell
 cinst nodejs
 ```
+
 ---
 
 # Installing many packages
@@ -37,6 +38,7 @@ cinst nodejs
 ```shell
 cinst nodejs androidstudio vscode googlechrome
 ```
+
 ---
 
 # Installing package specific version
@@ -44,22 +46,29 @@ cinst nodejs androidstudio vscode googlechrome
 ```shell
 choco install flutter --version=2.0.2
 ```
+
 ---
+
 # Upgrading packages
 
 ```shell
 choco upgrade vscode
 ```
+
 or
+
 ```shell
 choco upgrade all
 ```
+
 ---
+
 # Pinning package version
 
 ```shell
 choco pin flutter
 ```
+
 ---
 
 # Portable vs. Installers
@@ -83,26 +92,33 @@ Directory: C:/Program Files/...
 ```shell
 choco list --local-only
 ```
+
 or
+
 ```shell
 clist -l
 ```
 
 ---
+
 # Uninstalling packages
 
 ```shell
 choco uninstall androidstudio
 ```
+
 or
+
 ```shell
 cuninst androidstudio vscode
 ```
 
 ---
+
 # Automating installs
 
 install_packages.ps1
+
 ```shell
 #Requires -RunAsAdministrator
 
