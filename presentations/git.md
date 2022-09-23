@@ -1,13 +1,12 @@
 ---
-theme: default
-_class: lead
-paginate: true
-backgroundColor: #fff
-backgroundImage: url('../assets/background.jpg')
+theme: uncover
+class:
+  - lead
+  - invert
 marp: true
 ---
 
-![bg left:40% 80%](../assets/bxl-git.svg)
+![bg left:40% 80%](../assets/git.svg)
 
 # Git
 

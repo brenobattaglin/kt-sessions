@@ -1,13 +1,12 @@
 ---
-theme: default
-_class: lead
-paginate: true
-backgroundColor: #fff
-backgroundImage: url('../assets/background.jpg')
+theme: uncover
+class:
+  - lead
+  - invert
 marp: true
 ---
 
-![bg left:40% 80%](../assets/bxs-terminal.svg)
+![bg left:40% 80%](../assets/chocolatey.svg)
 
 # Chocolatey
 
@@ -17,7 +16,7 @@ https://chocolatey.org/
 
 ---
 
-# Searching and installing a package
+## Searching and installing a package
 
 ```shell
 choco search node
@@ -33,7 +32,7 @@ cinst nodejs
 
 ---
 
-# Installing many packages
+## Installing many packages
 
 ```shell
 cinst nodejs androidstudio vscode googlechrome
@@ -41,7 +40,7 @@ cinst nodejs androidstudio vscode googlechrome
 
 ---
 
-# Installing package specific version
+## Installing package specific version
 
 ```shell
 choco install flutter --version=2.0.2
@@ -49,7 +48,7 @@ choco install flutter --version=2.0.2
 
 ---
 
-# Upgrading packages
+## Upgrading packages
 
 ```shell
 choco upgrade vscode
@@ -63,7 +62,7 @@ choco upgrade all
 
 ---
 
-# Pinning package version
+## Pinning package version
 
 ```shell
 choco pin flutter
@@ -71,7 +70,7 @@ choco pin flutter
 
 ---
 
-# Portable vs. Installers
+## Portable vs. Installers
 
 ```shell
 choco install flutter
@@ -87,7 +86,7 @@ Directory: C:/Program Files/...
 
 ---
 
-# Listing installed packages
+## Listing installed packages
 
 ```shell
 choco list --local-only
@@ -101,7 +100,7 @@ clist -l
 
 ---
 
-# Uninstalling packages
+## Uninstalling packages
 
 ```shell
 choco uninstall androidstudio
@@ -115,7 +114,7 @@ cuninst androidstudio vscode
 
 ---
 
-# Automating installs
+## Automating installs
 
 install_packages.ps1
 
