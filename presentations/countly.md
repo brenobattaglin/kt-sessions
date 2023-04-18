@@ -55,7 +55,6 @@ The famous analytics platform
 - [Events](https://support.count.ly/hc/en-us/articles/4403721560857-Events)
 - [User Profiles](https://support.count.ly/hc/en-us/articles/4403281285913-User-Profiles)
 - [Drills](https://support.count.ly/hc/en-us/articles/4444087015065-Drill)
-- [Funnels](https://support.count.ly/hc/en-us/articles/4437429216409-Funnels)
 - [Views](https://support.count.ly/hc/en-us/articles/360037639651-Views-and-Heatmaps)
 
 ---
