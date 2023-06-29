@@ -6,7 +6,7 @@ class:
 marp: true
 ---
 
-![bg left:40% 80%](../assets/countly.svg)
+![bg left:40% 80%](../assets/icons/countly.svg)
 
 # Countly
 

@@ -6,7 +6,7 @@ class:
 marp: true
 ---
 
-![bg left:40% 80%](../assets/chocolatey.svg)
+![bg left:40% 80%](../assets/icons/chocolatey.svg)
 
 # Chocolatey
 
