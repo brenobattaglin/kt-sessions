@@ -29,9 +29,9 @@ https://bloclibrary.dev/
 
 ## Layers
 
-- **_Presentation layer_**: UI, responsible for rendering the user interface and handling user interactions
-- **_Business logic layer_**: Encapsulation to hold all the business logic of the application
-- **Data layer**: Repositories, api clients. It retrieves and manages the data.
+- **Presentation layer**: UI, responsible for rendering the user interface and handling user interactions
+- **Business logic layer**: Encapsulation to hold all the business logic of the application
+- **Data layer**: Repositories, api clients. It retrieves, manages the data and return responses.
 
 ---
 
