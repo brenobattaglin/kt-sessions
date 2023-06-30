@@ -44,7 +44,7 @@ https://bloclibrary.dev/
 | BlocConsumer                  | Cubits                  |
 | BlocListener                  | RepositoryProvider      |
 | BlocProvider                  | MultiRepositoryProvider |
-| MultiBlocProvider             | HydratedBloc            |
+| MultiBlocProvider             |                         |
 | MultiBlocListener             |                         |
 
 ---
