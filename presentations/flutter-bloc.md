@@ -5,7 +5,7 @@ class:
 marp: true
 ---
 
-![bg left:40% 80%](../assets/icons/flutter.svg)
+![bg left:40% 80%](https://raw.githubusercontent.com/brenobattaglin/kt-sessions/main/assets/icons/flutter.svg)
 
 # Flutter Bloc
 
@@ -23,7 +23,7 @@ https://bloclibrary.dev/
 
 # How it works
 
-![align: center,](../assets/images/flutter-bloc-01.png)
+![align: center,](https://raw.githubusercontent.com/brenobattaglin/kt-sessions/main/assets/images/flutter-bloc-01.png)
 
 ---
 
@@ -59,7 +59,7 @@ https://bloclibrary.dev/
 
 ## Code Examples
 
-![](../assets/images/presentation-coding-frustration.gif)
+![](https://raw.githubusercontent.com/brenobattaglin/kt-sessions/main/assets/images/presentation-coding-frustration.gif)
 
 ---
 
@@ -188,7 +188,7 @@ BlocConsumer<BlocA, BlocAState>(
 
 ## Code Examples
 
-![](../assets/images/presentation-coding.gif)
+![](https://raw.githubusercontent.com/brenobattaglin/kt-sessions/main/assets/images/presentation-coding.gif)
 
 ---
 
@@ -207,4 +207,4 @@ BlocConsumer<BlocA, BlocAState>(
 
 ---
 
-![](../assets/images/presentation-thanks.gif)
+![](https://raw.githubusercontent.com/brenobattaglin/kt-sessions/main/assets/images/presentation-thanks.gif)
